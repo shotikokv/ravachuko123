@@ -15,7 +15,7 @@ class ProductsTableSeeder extends Seeder
         // Laptops
         for ($i = 1; $i <= 30; $i++) {
             Product::create([
-                'name' => 'Baby Elephant Ring Holder ' . $i,
+                'name' => 'Baby222 Elephant Ring Holder ' . $i,
                 'slug' => 'Baby Elephant Ring Holder-' . $i,
                 'details' => 'Baby Elephant Ring Holder-',
                 'price' => rand(149999, 249999),
