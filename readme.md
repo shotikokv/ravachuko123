@@ -8,6 +8,11 @@
 3. `php artisan key:generate`
 4. Set your database credentials in your `.env` file
 5. php artisan migrate:fresh
+
+
+
+
+
 6.php artisan ravachuko:install
 1. `php artisan serve` or use Laravel Valet or Laravel Homestead
 1. Visit `localhost:8000` in your browser
