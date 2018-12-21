@@ -12,21 +12,21 @@ class ProductsTableSeeder extends Seeder
      */
     public function run()
     {
-        // Laptops
-        Product::create([
-            'name' => 'Baby222 Elephant Ring Holder ',
-            'slug' => 'Baby Elephant Ring Holder-',
-            'details' => 'Baby Elephant Ring Holder-',
-            'price' => rand(149999, 249999),
-            'description' => 'Elephant They say an elephant never forgets which makes this diminutive silver-plated version a logical partner for helping her remember where she put her rings. The artfully designed elephant makes a delightful addition to her bathroom sink or bedside table. Engraved up to 9 characters. Exclusively from RedEnvelope.
-Made of polished silver plate.
-Elephant\'s upturned trunk is also a symbol of good-luck.
-Elephant\'s upturned trunk and tray base hold her rings safely and securely.
-Upgrade to personalized and add a name up to 9 characters.
-Item #30250735',
-            'image' => 'products/dummy/laptop-.jpg',
-            'images' => '["products\/dummy\/laptop-2.jpg","products\/dummy\/laptop-3.jpg","products\/dummy\/laptop-4.jpg"]',
-        ])->categories()->attach(1);
+//        // Laptops
+//        Product::create([
+//            'name' => 'Baby222 Elephant Ring Holder ',
+//            'slug' => 'Baby Elephant Ring Holder-',
+//            'details' => 'Baby Elephant Ring Holder-',
+//            'price' => rand(149999, 249999),
+//            'description' => 'Elephant They say an elephant never forgets which makes this diminutive silver-plated version a logical partner for helping her remember where she put her rings. The artfully designed elephant makes a delightful addition to her bathroom sink or bedside table. Engraved up to 9 characters. Exclusively from RedEnvelope.
+//Made of polished silver plate.
+//Elephant\'s upturned trunk is also a symbol of good-luck.
+//Elephant\'s upturned trunk and tray base hold her rings safely and securely.
+//Upgrade to personalized and add a name up to 9 characters.
+//Item #30250735',
+//            'image' => 'products/gifts/gift.jpg',
+//            'images' => '["products\/gifts\/gifts.jpg","products\/dummy\/gifts.jpg","products\/dummy\/gifts.jpg"]',
+//        ])->categories()->attach(1);
 
         factory(Product::class)->times(30)->create();
 

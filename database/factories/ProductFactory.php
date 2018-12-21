@@ -10,8 +10,8 @@ $factory->define(App\Product::class, function (Faker $faker) {
         'details' => $faker->sentence(8),
         'price' => $faker->numberBetween(1000, 500000),
         'description' => $faker->paragraph,
-        'image' => 'products/dummy/laptop-1.jpg',
-        'images' => '["products\/dummy\/laptop-2.jpg","products\/dummy\/laptop-3.jpg","products\/dummy\/laptop-4.jpg"]',
+        'image' => 'image/gift.jpg',
+        'images' => '["image/gift.jpg","image/gift.jpg","image/gift.jpg"]',
         'quantity' => 10,
     ];
 });

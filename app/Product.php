@@ -32,6 +32,10 @@ class Product extends Model
 //        ],
 //    ];
 
+    public static function create(array $array)
+    {
+    }
+
     public function categories()
     {
         return $this->belongsToMany('App\Category');

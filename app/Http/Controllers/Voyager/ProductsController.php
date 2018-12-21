@@ -20,17 +20,7 @@ use TCG\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
 class ProductsController extends VoyagerBaseController
 {
     use BreadRelationshipParser;
-    //***************************************
-    //               ____
-    //              |  _ \
-    //              | |_) |
-    //              |  _ <
-    //              | |_) |
-    //              |____/
-    //
-    //      Browse our Data Type (B)READ
-    //
-    //****************************************
+
 
     public function index(Request $request)
     {
